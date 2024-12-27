@@ -1,0 +1,22 @@
+@layer components {
+  .form-input {
+    @apply w-full px-4 py-2 border rounded-lg transition-colors;
+    @apply focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none;
+  }
+
+  .form-input-icon {
+    @apply pl-10;
+  }
+
+  .form-error {
+    @apply border-red-500;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-700;
+  }
+
+  .form-error-text {
+    @apply mt-1 text-sm text-red-500;
+  }
+}

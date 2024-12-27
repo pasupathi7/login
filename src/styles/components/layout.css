@@ -1,0 +1,17 @@
+@layer components {
+  .auth-container {
+    @apply min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4;
+  }
+
+  .auth-card {
+    @apply bg-white rounded-2xl shadow-xl p-8 w-full max-w-md;
+  }
+
+  .auth-header {
+    @apply text-center mb-8;
+  }
+
+  .auth-icon-wrapper {
+    @apply inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4;
+  }
+}
